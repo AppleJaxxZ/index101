@@ -1,0 +1,75 @@
+body {
+    background-image: url('/images/bg-pattern-top.svg');
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-repeat:repeat-x;
+}
+
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    width: 400px;
+    height: 520px;
+    border: 2px solid none;
+    overflow: hidden;
+}
+
+.top {
+ background-image: url('/images/bg-pattern-card.svg');   
+ height: 150px;
+}
+
+
+.profileImg {
+    border: 5px solid white;
+    border-radius: 75%;
+   position: relative;
+    left: 150px;
+    top: -50px;
+}
+
+.nameAge {
+    position: relative;
+    display: inline-flex;
+    top: 50px;
+}
+
+#name {
+    padding-right: 5px;
+    font-weight: bolder;
+    font-size:larger
+}
+#age {
+    padding-left: 2px;
+    font-size: larger;
+}
+
+.center {
+    background-color: white;
+    padding-bottom: 5px;
+    text-align: center;
+    height: 150px;
+    
+}
+
+.bottom {
+    background-color: white;
+    padding: 0;
+    
+    padding-bottom: 28px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid grey;
+    height: 125px;
+
+}
+
+.column {
+    position: relative;
+    top: 40px;
+}
